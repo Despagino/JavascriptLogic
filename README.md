@@ -9,7 +9,7 @@ The outcome of this project will be:
 -  How many characters that paragraph has
 -  Define words that you don't know
 -  Create your essay inn this app for more organized and efficient way of creating essays
--  
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
