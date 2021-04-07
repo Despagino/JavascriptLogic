@@ -9,6 +9,10 @@ The outcome of this project will be:
 -  How many characters that paragraph has
 -  Define words that you don't know
 -  Create your essay inn this app for more organized and efficient way of creating essays
+-  
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 ![Screen Shot 2021-04-07 at 1 45 52 PM](https://user-images.githubusercontent.com/80994897/113918210-23776e80-97b0-11eb-909c-a6a016ef5df2.png)
 ![Screen Shot 2021-04-07 at 1 46 08 PM](https://user-images.githubusercontent.com/80994897/113918219-25413200-97b0-11eb-9ad2-39d8dc2c3d98.png)
