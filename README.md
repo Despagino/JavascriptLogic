@@ -1,4 +1,4 @@
-# JavascriptPractice
+# JavascriptLogic
 
 Here you will see my Javascript logic. I have compiled Javascript exercises in this reposiory, including my "Paragraph Checker" file. 
 My paragraph checker will be an ongoing project of mine that will include check paragraphs if it will be valid according to whatever requirements you set. 
