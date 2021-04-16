@@ -16,21 +16,21 @@
 // }
 
 
-//---------------------------------------------------------------------
+// ---------------------------------------------------------------------
 
-// let start = 1;
-// let end = 10;
-// let isPrime = true;
+let start = 1;
+let end = 10;
+let isPrime = true;
 
-// for (let counter = start; counter <= end; counter++) {
-//     for (let divisor = 2; divisor < counter; divisor++) {
-//         if (counter % divisor === 0) {
-//             isPrime = false;
-//             break;
-//         }
-//         if (isPrime === true) {
-//             console.log(counter)
-//         }
-//     }
-// }
+for (let counter = start; counter <= end; counter++) {
+    for (let divisor = 2; divisor < counter; divisor++) {
+        if (counter % divisor === 0) {
+            isPrime = false;
+            break;
+        }
+        if (isPrime === true) {
+            console.log(counter)
+        }
+    }
+}
 
