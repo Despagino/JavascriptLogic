@@ -86,19 +86,17 @@
 
 
         class Square {
-            constructor(length, width) {
-                this.length = length;
-                this.width = width;
-
+            constructor(side) {
+                this.side = side;
             }
 
             SquareArea() {
-                return this.length * this.width
+                return this.side * this.side
             }
 
         }
         let display3 = document.getElementById("triarea");
-        display3.innerHTML = new Square(4, 5).SquareArea()
+        display3.innerHTML = new Square(5).SquareArea()
 
     </script>
 
