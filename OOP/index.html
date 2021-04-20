@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Oriented Programming</title>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h1 id="company">NBA PLAYERS</h1>
+    <div>
+        <ul id="list">
+
+        </ul>
+        <p id="count"></p>
+
+        <script>
+
+            class Student {
+                static count = 0;
+                constructor(fname, lname, team, ranking) {
+                    this.fname = fname;
+                    this.lname = lname;
+                    this.team = team;
+                    this.ranking = ranking
+                    // this.id = ++idnum
+                }
+
+                static countStudent() {
+                    Student.count++
+                }
+
+                displayName() {
+                    let fullname = this.fname + " " + this.lname
+                    return fullname
+                }
+
+                displayInfo() {
+                    let info = this.team + " | " + this.ranking
+                    return info
+                }
+
+                displayStudent() {
+                    let ul1 = document.getElementById("list")
+                    let ul2 = document.createElement('ul')
+                    let createli1 = document.createElement('b')
+                    let createli2 = document.createElement('li')
+                    createli1.append(this.displayName())
+                    ul1.append(createli1)
+                    createli2.append(this.displayInfo())
+                    ul2.append(createli2)
+                    ul1.append(ul2)
+                    let border = document.createElement("hr")
+                    ul1.append(border)
+                }
+
+            }
+
+            new Student("James", "Harden", "Brooklyn Nets", 97)
+                .displayStudent()
+            Student.countStudent();
+            new Student("Anthony", "Davis", "Lakers", 94)
+                .displayStudent()
+            Student.countStudent();
+            new Student("Luka", "Doncic", "Mavericks", 96)
+                .displayStudent()
+            Student.countStudent();
+            new Student("Lebron", "James", "Lakers", 98)
+                .displayStudent()
+            Student.countStudent();
+            new Student("Kawhi", "Leonard", "Clippers", 95)
+                .displayStudent()
+            Student.countStudent();
+            new Student("Giannis", "Akumpo", "Bucks", 95)
+                .displayStudent()
+            Student.countStudent();
+
+
+            let p = document.getElementById("count");
+            p.innerHTML = "The total number of players are " + Student.count
+
+
+        </script>
+</body>
+
+</html>
